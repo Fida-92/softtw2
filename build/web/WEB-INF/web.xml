@@ -1,0 +1,28 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <servlet>
+       <servlet-name>login</servlet-name>
+        <servlet-class>com.UserloginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/p2-call</url-pattern>
+    </servlet-mapping>   <!---->
+
+
+ <servlet>
+       <servlet-name>logout12</servlet-name>
+        <servlet-class>com.UserLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout12</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+   
+    
+    
+    <welcome-file-list>  
+        <welcome-file>p1.jsp</welcome-file>  
+        <welcome-file>index.html</welcome-file>  
+    </welcome-file-list>  
+    
+</web-app>
